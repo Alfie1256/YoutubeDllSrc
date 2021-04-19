@@ -1,1 +1,2 @@
-cd test && youtube-dl -a ../$1.src
+cd $1
+youtube-dl -a ../$1.src
